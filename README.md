@@ -14,21 +14,15 @@ Notes:
 
 1. Install imagemagick
 
-         ```bash
          # sudo apt-get install imagemagick
-         ```
 
 2. Move `img2pdf.sh` into directory with your image files
 
-         ```bash
          $ cp ~/Downloads/img2pdf.sh ~/dir/with/img/files
-         ```
 
 3. Run the script
 
-         ```bash
          $ ./img2pdf.sh
-         ```
 
 4. Input the assignment # (1, 2, 3, 4) and file extension (must be preceded by '.' ex. .JPG)
 5. Your converted files will have the form `assign[0-4]q[0-9]{1,2}[a-z]?.pdf` ex. "assign1q1.pdf" or "assign4q12h.pdf", and original files will be unchanged

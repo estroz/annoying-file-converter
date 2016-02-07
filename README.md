@@ -13,9 +13,12 @@ Notes:
 
 ####Setup: (super easy)
 
-1. Install imagemagick
+1. Install imagemagick:
+    2. Ubuntu:
 
-         # sudo apt-get install imagemagick
+         `# sudo apt-get install imagemagick`
+         
+    1. [Mac](http://www.imagemagick.org/script/binary-releases.php#macosx) or [Cygwin](http://www.imagemagick.org/script/binary-releases.php) 
 
 2. Move `img2pdf.sh` into directory with your image files
 

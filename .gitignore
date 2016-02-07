@@ -1,0 +1,12 @@
+#Ignore test files and scripts
+
+#test scripts
+./**/test[0-9a-z][0-9a-z].sh
+./test/
+
+#test files
+*.pdf
+*.JPG
+
+#temp files
+*~
